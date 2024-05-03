@@ -1,0 +1,39 @@
+@charset "UTF-8";
+body{
+    
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 17px;
+}
+main{
+    background-color: rgb(131, 131, 131);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(105, 105, 105);
+    width: 1150px;
+    padding: 10px;
+    margin: auto;
+}
+h2{
+    background-color: rgb(38, 38, 156);
+}
+h1{
+    text-align: center;
+    background-color: #FFD23F;
+}
+.peito{
+    background-color: #C8553D;
+}
+.ombro{
+    background-color: #037171;
+}
+.triceps{
+    background-color: #618B25;
+}
+p{
+    font-weight: bold;
+}
+.exercicio{
+    font-weight: bold;
+    font-size: 18px;
+}

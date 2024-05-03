@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Flexíveis</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Crie uma Imagens Flexivel de acordo com cada dispositivel.</p>
+
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-drp.jpg" type="image/jpg">
+        <source media="(max-width:1050px )" srcset="imagens/foto-drm.jpg" type="image/jpg">
+        <img src="imagens/foto-drg.jpg" alt="imagem flexivel">
+    </picture>
+    
+</body>
+</html>
